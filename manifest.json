@@ -1,0 +1,17 @@
+{
+	"name": "IMSLP bypass 15",
+	"version": "1.0",
+	"manifest_version" : 2,
+	"description": "bypasses 15 sec timer in IMSLP",
+	"browser_action": {
+		"default_icon": "icon.png"
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["http://imslp.org/*", "https://imslp.org/*" ],
+			"js": ["imslp_15bypass.js"]
+		}
+	]
+
+}
