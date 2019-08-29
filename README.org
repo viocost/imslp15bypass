@@ -1,7 +1,7 @@
 #+TITLE Save yourself 15sec times every time you download music from IMSLP
 * DESCRIPTION
 This Chrome extension will bypass 15sec wait time on IMSLP. \\
-*IMPORTANT! If you download music from IMSLP, please consider supporting them financially. It is vital resource for musicians all over the World, and they have to pay for hosting and maintenance!*
+*IMPORTANT! The resource is vital for classical musicians all over the World, and they have to pay for hosting and maintenance! If you download music from IMSLP, please consider supporting them financially.*
 
 * Instructions:
 - Download as zip
@@ -10,8 +10,8 @@ This Chrome extension will bypass 15sec wait time on IMSLP. \\
 - In the address bar type: chrome://extensions
 - Turn on "Developer mode" switch
 - Click "Load unpacked" button
-- Navigate to the directory that was unpacked from zip archive you've downloaded. You should be inside that directory. Click select.
-- You should see funny icon appeared on your extensions tab, usually top right.
+- Navigate to the directory that was unpacked from zip archive you've downloaded. You should be in that directory. Click "select".
+- You should see the funny icon appeared on your extensions tab, usually top right.
 - Go to IMSLP and download sheet music without waiting!
 
 
