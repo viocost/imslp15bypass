@@ -5,7 +5,6 @@
 			newDev.innerHTML = "<a href='" + href + "'>DOWNLOAD NOW</a>";
 
 			document.getElementsByClassName('body')[0].getElementsByTagName("center")[0].replaceChild(newDev, a);
-
-
+			window.open(href, "_blank");
+			window.history.back()
 	}
-

@@ -1,11 +1,25 @@
 {
-	"name": "IMSLP bypass 15",
-	"version": "1.0",
+	"name": "IMSLP 15 bypass",
+	"version": "2.0",
 	"manifest_version" : 2,
-	"description": "bypasses 15 sec timer in IMSLP",
+	"description": "Download sheet music on imslp.org without 15 sec waiting",
 	"browser_action": {
-		"default_icon": "icon.png"
+		"default_icon": "icon-disabled.png"
 	},
+
+	"icons": {
+		"128": "icon.png",
+		"256": "icon256.png"
+	},
+
+	"background": {
+		"persistent": false,
+		"scripts": ["background.js"]
+	},
+
+	"permissions": [
+		"tabs"
+	],
 
 	"content_scripts": [
 		{
@@ -13,5 +27,4 @@
 			"js": ["imslp_15bypass.js"]
 		}
 	]
-
 }
